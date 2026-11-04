@@ -1,0 +1,66 @@
+# Эксперимент v1 — сетевая модальность (SV + GOOSE + фоновый трафик), окна по времени.
+# Все параметры фиксируются ДО просмотра тестовых результатов.
+experiment_id: v1_network_protocol
+seed: 20261104
+
+paths:
+  dataset_root: "C:\\Users\\Admin\\Desktop\\dataset"
+  interim: data/interim
+  processed: data/processed
+  reports: reports
+  figures: figures
+  models: models
+
+extract:
+  tshark: "C:/Program Files/Wireshark/tshark.exe"
+  workers: 8
+
+window:
+  length_s: 1.0
+  stride_s: 0.5
+  sv_modulus: 4800            # smpCnt 0..4799 (DATA_DICTIONARY)
+  feature_set: protocol       # protocol | protocol_content  (content = RMS токов/напряжений из SV)
+
+# Допустимая «норма» для обучения: только сценарии без КЗ и без атак.
+# Resource Exhaustion — это хостовая атака (README §6), поэтому НЕ норма.
+normal_pool:
+  - Baseline
+
+# семейство сценария (первая папка в Scenarios/) -> группа оценки
+group_map:
+  "Baseline": normal_pool
+  "Fault": physical_fault          # КЗ без сетевой атаки: только доля срабатываний
+  "Resource Exhaustion": host_stress   # хостовая атака без размеченных пакетов: только доля срабатываний
+  "GOOSE Injection": attack
+  "Reconnaissance": attack
+  "SV Injection": attack
+
+split:                          # доли ПРОГОНОВ нормального пула
+  train: 0.6
+  val: 0.2
+  test: 0.2
+
+preprocess:
+  clip_z: 10.0
+
+threshold:
+  val_quantile: 0.99            # порог = квантиль оценок нормальной валидации
+
+isolation_forest:
+  n_estimators: 300
+  max_samples: auto
+
+autoencoder:
+  hidden: [64, 32]
+  latent: 8
+  lr: 0.001
+  weight_decay: 0.00001
+  batch_size: 256
+  max_epochs: 300
+  patience: 20
+
+hybrid:
+  rule: mean_of_val_ranks       # зафиксировано до просмотра теста
+
+bootstrap:
+  n: 500

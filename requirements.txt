@@ -1,0 +1,10 @@
+numpy
+pandas
+scipy
+scikit-learn
+pyarrow
+matplotlib
+pyyaml
+joblib
+pytest
+# PyTorch ставится отдельно по официальной команде с pytorch.org (Windows, CUDA)

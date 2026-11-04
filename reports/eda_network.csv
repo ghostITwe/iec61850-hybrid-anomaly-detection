@@ -1,0 +1,90 @@
+capture,scenario,group,vantage,n_frames,duration_s,n_other,n_sv,n_goose,n_ipv4,n_ipv6,n_arp,sv_rate_fps,sv_dup_smp,sv_smp_gaps,vlan_frames,n_malicious,n_labels
+Baseline/baseline1/baseline1_anon,Baseline,normal_pool,single,288601,60.0,0,287993,220,383,0,5,4800.0,0,0,40,,
+Baseline/baseline2/baseline2_anon,Baseline,normal_pool,single,288598,60.0,0,287993,220,385,0,0,4800.0,0,0,40,,
+Baseline/baseline3/baseline3_anon,Baseline,normal_pool,single,288641,60.0,0,287991,220,427,1,2,4800.0,0,0,40,,
+Baseline/baseline4/baseline4_anon,Baseline,normal_pool,single,288612,60.0,0,287992,220,398,0,2,4800.0,0,0,40,,
+Baseline/baseline5/baseline5_anon,Baseline,normal_pool,single,288669,60.0,0,287992,220,389,0,68,4800.0,0,0,40,,
+Fault/faults_no_reclosure/faults_no_reclosure1/faults_no_reclosure1_anon,Fault/faults_no_reclosure,physical_fault,single,288674,60.0,0,287992,294,388,0,0,4800.0,0,0,47,,
+Fault/faults_no_reclosure/faults_no_reclosure2/faults_no_reclosure2_anon,Fault/faults_no_reclosure,physical_fault,single,288664,60.0,0,287992,281,391,0,0,4800.0,0,0,47,,
+Fault/faults_no_reclosure/faults_no_reclosure3/faults_no_reclosure3_anon,Fault/faults_no_reclosure,physical_fault,single,288685,60.0,0,287992,293,398,0,2,4800.0,0,0,47,,
+Fault/faults_no_reclosure/faults_no_reclosure4/faults_no_reclosure4_anon,Fault/faults_no_reclosure,physical_fault,single,288708,60.0,0,287992,290,423,0,3,4800.0,0,0,47,,
+Fault/faults_no_reclosure/faults_no_reclosure5/faults_no_reclosure5_anon,Fault/faults_no_reclosure,physical_fault,single,288763,60.0,0,287992,307,464,0,0,4800.0,0,0,47,,
+Fault/faults_with_reclosure/faults_with_reclosure1/faults_with_reclosure1_anon,Fault/faults_with_reclosure,physical_fault,single,288727,60.0,0,287993,334,397,0,3,4800.0,0,0,47,,
+Fault/faults_with_reclosure/faults_with_reclosure2/faults_with_reclosure2_anon,Fault/faults_with_reclosure,physical_fault,single,288701,60.0,0,287992,350,359,0,0,4800.0,0,0,47,,
+Fault/faults_with_reclosure/faults_with_reclosure3/faults_with_reclosure3_anon,Fault/faults_with_reclosure,physical_fault,single,288660,60.0,0,287992,339,328,0,1,4800.0,0,0,47,,
+Fault/faults_with_reclosure/faults_with_reclosure4/faults_with_reclosure4_anon,Fault/faults_with_reclosure,physical_fault,single,288671,60.0,0,287993,337,341,0,0,4800.0,0,0,47,,
+Fault/faults_with_reclosure/faults_with_reclosure5/faults_with_reclosure5_anon,Fault/faults_with_reclosure,physical_fault,single,288708,60.0,0,287992,337,378,1,0,4800.0,0,0,47,,
+GOOSE Injection/IEDSpoofingBaseline/ied_injection_baseline1/ied_injection_baseline1_anon,GOOSE Injection/IEDSpoofingBaseline,attack,single,291765,60.0,0,287992,218,3554,1,0,4800.0,0,0,40,54.0,291765.0
+GOOSE Injection/IEDSpoofingBaseline/ied_injection_baseline2/ied_injection_baseline2_anon,GOOSE Injection/IEDSpoofingBaseline,attack,single,288614,60.0,0,287993,185,436,0,0,4800.0,0,0,40,19.0,288614.0
+GOOSE Injection/IEDSpoofingBaseline/ied_injection_baseline3/ied_injection_baseline3_anon,GOOSE Injection/IEDSpoofingBaseline,attack,single,289061,60.0,0,287992,197,870,0,2,4800.0,0,0,40,20.0,289061.0
+GOOSE Injection/IEDSpoofingBaseline/ied_injection_baseline4/ied_injection_baseline4_anon,GOOSE Injection/IEDSpoofingBaseline,attack,single,288720,60.0,0,287993,226,496,0,5,4800.0,0,0,40,19.0,288720.0
+GOOSE Injection/IEDSpoofingBaseline/ied_injection_baseline5/ied_injection_baseline5_anon,GOOSE Injection/IEDSpoofingBaseline,attack,single,288795,60.0,0,287993,204,595,1,2,4800.0,0,0,40,17.0,288795.0
+GOOSE Injection/IEDSpoofingDuringFault/ied_injection_fault1/ied_injection_fault1_anon,GOOSE Injection/IEDSpoofingDuringFault,attack,single,289135,60.0,0,287992,269,867,0,7,4800.0,0,0,47,52.0,289135.0
+GOOSE Injection/IEDSpoofingDuringFault/ied_injection_fault2/ied_injection_fault2_anon,GOOSE Injection/IEDSpoofingDuringFault,attack,single,288742,60.0,0,287992,267,481,2,0,4800.0,0,0,47,36.0,288742.0
+GOOSE Injection/IEDSpoofingDuringFault/ied_injection_fault3/ied_injection_fault3_anon,GOOSE Injection/IEDSpoofingDuringFault,attack,single,288888,60.0,0,287992,271,561,0,64,4800.0,0,0,47,34.0,288888.0
+GOOSE Injection/IEDSpoofingDuringFault/ied_injection_fault4/ied_injection_fault4_anon,GOOSE Injection/IEDSpoofingDuringFault,attack,single,288953,60.0,0,287992,290,671,0,0,4800.0,0,0,47,43.0,288953.0
+GOOSE Injection/IEDSpoofingDuringFault/ied_injection_fault5/ied_injection_fault5_anon,GOOSE Injection/IEDSpoofingDuringFault,attack,single,288987,60.0,0,287991,305,680,0,11,4800.0,0,0,47,61.0,288987.0
+GOOSE Injection/IEDSpoofingDuringFaultReclosure/ied_injection_fault_reclosure1/ied_injection_fault_reclosure1_anon,GOOSE Injection/IEDSpoofingDuringFaultReclosure,attack,single,534272,111.03,0,532936,436,896,0,4,4800.0,0,0,81,17.0,534272.0
+GOOSE Injection/IEDSpoofingDuringFaultReclosure/ied_injection_fault_reclosure2/ied_injection_fault_reclosure2_anon,GOOSE Injection/IEDSpoofingDuringFaultReclosure,attack,single,538898,111.36,0,534542,449,3904,0,3,4800.0,0,0,82,10.0,538898.0
+GOOSE Injection/IEDSpoofingDuringFaultReclosure/ied_injection_fault_reclosure3/ied_injection_fault_reclosure3_anon,GOOSE Injection/IEDSpoofingDuringFaultReclosure,attack,single,547197,113.71,0,545798,461,872,1,65,4800.0,0,0,83,9.0,547197.0
+GOOSE Injection/IEDSpoofingDuringFaultReclosure/ied_injection_fault_reclosure4/ied_injection_fault_reclosure4_anon,GOOSE Injection/IEDSpoofingDuringFaultReclosure,attack,single,525887,109.3,0,524620,444,821,0,2,4800.0,0,0,80,12.0,525887.0
+GOOSE Injection/IEDSpoofingDuringFaultReclosure/ied_injection_fault_reclosure5/ied_injection_fault_reclosure5_anon,GOOSE Injection/IEDSpoofingDuringFaultReclosure,attack,single,546734,113.66,0,545591,470,669,0,4,4800.0,0,0,83,10.0,546734.0
+GOOSE Injection/vIEDSpoofingBaseline/vied_injection_baseline1/vied_injection_baseline1_anon,GOOSE Injection/vIEDSpoofingBaseline,attack,single,289022,60.0,0,287992,310,720,0,0,4800.0,0,0,40,64.0,289022.0
+GOOSE Injection/vIEDSpoofingBaseline/vied_injection_baseline2/vied_injection_baseline2_anon,GOOSE Injection/vIEDSpoofingBaseline,attack,single,288831,60.0,0,287993,274,564,0,0,4800.0,0,0,40,23.0,288831.0
+GOOSE Injection/vIEDSpoofingBaseline/vied_injection_baseline3/vied_injection_baseline3_anon,GOOSE Injection/vIEDSpoofingBaseline,attack,single,288815,60.0,0,287991,270,553,0,1,4800.0,0,0,40,21.0,288815.0
+GOOSE Injection/vIEDSpoofingBaseline/vied_injection_baseline4/vied_injection_baseline4_anon,GOOSE Injection/vIEDSpoofingBaseline,attack,single,289150,60.0,0,287992,273,883,0,2,4800.0,0,0,40,27.0,289150.0
+GOOSE Injection/vIEDSpoofingBaseline/vied_injection_baseline5/vied_injection_baseline5_anon,GOOSE Injection/vIEDSpoofingBaseline,attack,single,289121,60.0,0,287992,284,840,0,5,4800.0,0,0,40,35.0,289121.0
+GOOSE Injection/vIEDSpoofingDuringFault/vied_injection_fault1/vied_injection_fault1_anon,GOOSE Injection/vIEDSpoofingDuringFault,attack,single,289280,60.0,0,287992,355,933,0,0,4800.0,0,0,47,58.0,289280.0
+GOOSE Injection/vIEDSpoofingDuringFault/vied_injection_fault2/vied_injection_fault2_anon,GOOSE Injection/vIEDSpoofingDuringFault,attack,single,289158,60.0,0,287992,342,824,0,0,4800.0,0,0,47,63.0,289158.0
+GOOSE Injection/vIEDSpoofingDuringFault/vied_injection_fault3/vied_injection_fault3_anon,GOOSE Injection/vIEDSpoofingDuringFault,attack,single,289278,60.0,0,287993,361,924,0,0,4800.0,0,0,47,67.0,289278.0
+GOOSE Injection/vIEDSpoofingDuringFault/vied_injection_fault4/vied_injection_fault4_anon,GOOSE Injection/vIEDSpoofingDuringFault,attack,single,289619,60.0,0,287992,350,1275,0,2,4800.0,0,0,47,70.0,289619.0
+GOOSE Injection/vIEDSpoofingDuringFault/vied_injection_fault5/vied_injection_fault5_anon,GOOSE Injection/vIEDSpoofingDuringFault,attack,single,289124,60.0,0,287992,336,794,1,1,4800.0,0,0,47,56.0,289124.0
+GOOSE Injection/vIEDSpoofingDuringFaultReclosure/vied_injection_fault_reclosure1/vied_injection_fault_reclosure1_anon,GOOSE Injection/vIEDSpoofingDuringFaultReclosure,attack,single,289370,60.0,0,287992,472,905,0,1,4800.0,0,0,47,67.0,289370.0
+GOOSE Injection/vIEDSpoofingDuringFaultReclosure/vied_injection_fault_reclosure2/vied_injection_fault_reclosure2_anon,GOOSE Injection/vIEDSpoofingDuringFaultReclosure,attack,single,289975,60.0,0,287992,469,1512,0,2,4800.0,0,0,47,71.0,289975.0
+GOOSE Injection/vIEDSpoofingDuringFaultReclosure/vied_injection_fault_reclosure3/vied_injection_fault_reclosure3_anon,GOOSE Injection/vIEDSpoofingDuringFaultReclosure,attack,single,290372,60.0,0,287992,472,1908,0,0,4800.0,0,0,47,73.0,290372.0
+GOOSE Injection/vIEDSpoofingDuringFaultReclosure/vied_injection_fault_reclosure4/vied_injection_fault_reclosure4_anon,GOOSE Injection/vIEDSpoofingDuringFaultReclosure,attack,single,289824,60.0,0,287992,443,1384,0,5,4800.0,0,0,47,38.0,289824.0
+GOOSE Injection/vIEDSpoofingDuringFaultReclosure/vied_injection_fault_reclosure5/vied_injection_fault_reclosure5_anon,GOOSE Injection/vIEDSpoofingDuringFaultReclosure,attack,single,289416,60.0,0,287993,416,1007,0,0,4800.0,0,0,47,33.0,289416.0
+Reconnaissance/nmap_aggressive/nmap_aggressive_attacker_anon,Reconnaissance/nmap_aggressive,attack,attacker,931816,191.86,0,920753,799,10255,0,9,4799.1,0,10,127,8799.0,931816.0
+Reconnaissance/nmap_aggressive/nmap_aggressive_vied_anon,Reconnaissance/nmap_aggressive,attack,vied,919369,190.83,0,915963,795,2602,0,9,4800.0,0,0,127,2360.0,919369.0
+Reconnaissance/nmap_insane/nmap_insane_attacker_anon,Reconnaissance/nmap_insane,attack,attacker,910825,187.53,0,899901,779,10118,4,23,4798.8,0,15,125,8781.0,910825.0
+Reconnaissance/nmap_insane/nmap_insane_vied_anon,Reconnaissance/nmap_insane,attack,vied,898859,186.36,0,894515,774,3543,4,23,4800.0,0,0,124,2360.0,898859.0
+Reconnaissance/nmap_normal/nmap_normal_attacker_anon,Reconnaissance/nmap_normal,attack,attacker,926170,190.56,0,914491,793,10873,0,13,4798.9,0,10,127,8800.0,926170.0
+Reconnaissance/nmap_normal/nmap_normal_vied_anon,Reconnaissance/nmap_normal,attack,vied,912538,189.38,0,909036,789,2698,0,15,4800.0,0,0,126,2373.0,912538.0
+Reconnaissance/nmap_polite/nmap_polite_attacker_anon,Reconnaissance/nmap_polite,attack,attacker,946189,196.39,0,942380,818,2927,1,63,4798.6,0,14,131,1921.0,946189.0
+Reconnaissance/nmap_polite/nmap_polite_vied_anon,Reconnaissance/nmap_polite,attack,vied,942019,195.55,0,938651,813,2503,1,51,4800.0,0,0,130,956.0,942019.0
+Resource Exhaustion/baseline_priority_a/baseline_priority1/baseline_priority1_anon,Resource Exhaustion/baseline_priority_a,host_stress,single,288417,60.0,0,287993,250,164,0,10,4800.0,0,0,40,,
+Resource Exhaustion/baseline_priority_a/baseline_priority2/baseline_priority2_anon,Resource Exhaustion/baseline_priority_a,host_stress,single,288474,60.0,0,287993,249,223,0,9,4800.0,0,0,40,,
+Resource Exhaustion/baseline_priority_a/baseline_priority3/baseline_priority3_anon,Resource Exhaustion/baseline_priority_a,host_stress,single,288418,60.0,0,287992,249,176,0,1,4800.0,0,0,40,,
+Resource Exhaustion/baseline_priority_a/baseline_priority4/baseline_priority4_anon,Resource Exhaustion/baseline_priority_a,host_stress,single,288421,60.0,0,287993,249,176,0,3,4800.0,0,0,40,,
+Resource Exhaustion/baseline_priority_a/baseline_priority5/baseline_priority5_anon,Resource Exhaustion/baseline_priority_a,host_stress,single,288416,60.0,0,287993,250,170,0,3,4800.0,0,0,40,,
+Resource Exhaustion/fault_priority_a/fault_priority1/fault_priority1_anon,Resource Exhaustion/fault_priority_a,host_stress,single,288501,60.0,0,287992,340,168,0,1,4800.0,0,0,47,,
+Resource Exhaustion/fault_priority_a/fault_priority2/fault_priority2_anon,Resource Exhaustion/fault_priority_a,host_stress,single,288523,60.0,0,287992,321,210,0,0,4800.0,0,0,47,,
+Resource Exhaustion/fault_priority_a/fault_priority3/fault_priority3_anon,Resource Exhaustion/fault_priority_a,host_stress,single,288441,60.0,0,287992,310,138,0,1,4800.0,0,0,47,,
+Resource Exhaustion/fault_priority_a/fault_priority4/fault_priority4_anon,Resource Exhaustion/fault_priority_a,host_stress,single,288477,60.0,0,287992,309,175,0,1,4800.0,0,0,47,,
+Resource Exhaustion/fault_priority_a/fault_priority5/fault_priority5_anon,Resource Exhaustion/fault_priority_a,host_stress,single,288545,60.0,0,287992,312,233,0,8,4800.0,0,0,47,,
+Resource Exhaustion/fault_priority_a/fault_priority6/fault_priority6_anon,Resource Exhaustion/fault_priority_a,host_stress,single,292749,60.0,0,287992,309,4444,1,3,4800.0,0,0,47,,
+Resource Exhaustion/fault_priority_a/fault_priority7/fault_priority7_anon,Resource Exhaustion/fault_priority_a,host_stress,single,289611,60.0,0,287993,310,1306,1,1,4800.0,0,0,47,,
+Resource Exhaustion/fault_priority_a/fault_priority8/fault_priority8_anon,Resource Exhaustion/fault_priority_a,host_stress,single,192063,47.54,0,187257,248,4558,0,0,3938.9,0,1,33,,
+Resource Exhaustion/fault_priority_b/fault_priority1/fault_priority1_anon,Resource Exhaustion/fault_priority_b,host_stress,single,288453,60.0,0,287993,310,149,0,1,4800.0,0,0,47,,
+Resource Exhaustion/fault_priority_b/fault_priority10/fault_priority10_anon,Resource Exhaustion/fault_priority_b,host_stress,single,292112,59.99,0,287975,307,3809,0,21,4800.0,0,0,45,,
+Resource Exhaustion/fault_priority_b/fault_priority2/fault_priority2_anon,Resource Exhaustion/fault_priority_b,host_stress,single,288502,60.0,0,287992,323,184,0,3,4800.0,0,0,47,,
+Resource Exhaustion/fault_priority_b/fault_priority3/fault_priority3_anon,Resource Exhaustion/fault_priority_b,host_stress,single,288447,60.0,0,287992,309,145,0,1,4800.0,0,0,47,,
+Resource Exhaustion/fault_priority_b/fault_priority4/fault_priority4_anon,Resource Exhaustion/fault_priority_b,host_stress,single,288438,60.0,0,287992,310,136,0,0,4800.0,0,0,47,,
+Resource Exhaustion/fault_priority_b/fault_priority5/fault_priority5_anon,Resource Exhaustion/fault_priority_b,host_stress,single,288442,60.0,0,287992,311,138,1,0,4800.0,0,0,48,,
+Resource Exhaustion/fault_priority_b/fault_priority6/fault_priority6_anon,Resource Exhaustion/fault_priority_b,host_stress,single,290937,60.0,0,287992,322,2623,0,0,4800.0,0,0,47,,
+Resource Exhaustion/fault_priority_b/fault_priority7/fault_priority7_anon,Resource Exhaustion/fault_priority_b,host_stress,single,288950,60.0,0,287992,335,623,0,0,4800.0,0,0,40,,
+Resource Exhaustion/fault_priority_b/fault_priority8/fault_priority8_anon,Resource Exhaustion/fault_priority_b,host_stress,single,291409,60.0,0,287992,311,3106,0,0,4800.0,0,0,48,,
+Resource Exhaustion/fault_priority_b/fault_priority9/fault_priority9_anon,Resource Exhaustion/fault_priority_b,host_stress,single,254367,60.0,0,253720,292,352,0,3,4228.8,0,1,42,,
+Resource Exhaustion/only vied/fault_priority1/fault_priority1_anon,Resource Exhaustion/only vied,host_stress,single,291923,60.0,0,287992,322,3594,0,15,4800.0,0,0,47,,
+Resource Exhaustion/only vied/fault_priority2/fault_priority2_anon,Resource Exhaustion/only vied,host_stress,single,294283,60.0,0,287992,325,5965,0,1,4800.0,0,0,47,,
+Resource Exhaustion/only vied/fault_priority3/fault_priority3_anon,Resource Exhaustion/only vied,host_stress,single,289306,60.0,0,287992,326,988,0,0,4800.0,0,0,47,,
+Resource Exhaustion/only vied/fault_priority4/fault_priority4_anon,Resource Exhaustion/only vied,host_stress,single,288616,60.0,0,287993,309,314,0,0,4800.0,0,0,47,,
+Resource Exhaustion/only vied/fault_priority5/fault_priority5_anon,Resource Exhaustion/only vied,host_stress,single,293687,60.0,0,287993,310,5380,0,4,4800.0,0,0,47,,
+SV Injection/HighValues/sv_injection_all_nines_during_normal_attacker_anon,SV Injection/HighValues,attack,attacker,576712,89.9,0,575516,412,770,0,14,6401.8,30,278041,68,144000.0,576712.0
+SV Injection/HighValues/sv_injection_all_nines_during_normal_vied_anon,SV Injection/HighValues,attack,vied,554325,85.35,0,553681,394,176,0,74,6487.2,29,278385,65,144000.0,554325.0
+SV Injection/LowValues/sv_injection_all_zero_during_normal_attacker_anon,SV Injection/LowValues,attack,attacker,552431,84.84,0,551214,389,820,0,8,6497.4,0,268506,57,144000.0,552431.0
+SV Injection/LowValues/sv_injection_all_zero_during_normal_vied_anon,SV Injection/LowValues,attack,vied,565448,87.58,0,564402,400,571,0,75,6444.2,0,241650,59,144000.0,565448.0
+SV Injection/ReplayFault/sv_injection_replay_fault_during_normal_attacker_anon,SV Injection/ReplayFault,attack,attacker,566753,88.76,0,565831,412,493,0,17,6375.0,0,239529,66,139800.0,566753.0
+SV Injection/ReplayFault/sv_injection_replay_fault_during_normal_vied_anon,SV Injection/ReplayFault,attack,vied,564909,86.93,0,557043,405,7379,0,82,6408.3,0,267930,65,139800.0,564909.0
+SV Injection/ReplayNormal/sv_injection_replay_normal_during_fault_attacker_anon,SV Injection/ReplayNormal,attack,attacker,488278,73.49,0,487545,325,344,3,61,6633.8,0,259335,57,134774.0,488278.0
+SV Injection/ReplayNormal/sv_injection_replay_normal_during_fault_vied_anon,SV Injection/ReplayNormal,attack,vied,500279,75.96,0,499371,334,450,3,121,6574.0,1,256429,59,134757.0,500279.0
