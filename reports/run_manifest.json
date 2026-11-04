@@ -1,0 +1,17 @@
+{
+ "python": "3.14.8",
+ "numpy": "2.5.4",
+ "pandas": "3.1.0",
+ "sklearn": "1.9.1",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "git_commit": "38eef02fc653ae7892e18d1f7ecb638e69416ac8",
+ "seed": 20261104,
+ "config": "C:\\Users\\Admin\\Desktop\\hybrid-anomaly-detection\\config\\experiment_v1.yaml",
+ "thresholds": {
+  "if": 0.5381553283248746,
+  "ae": 0.2803796095999997,
+  "hybrid": 0.9921610169491525
+ },
+ "torch": "2.11.0+cu128",
+ "cuda": true
+}
